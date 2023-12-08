@@ -8,6 +8,5 @@
 #            a_dictionary[key] = value
 #            return a_dictionary
 def update_dictionary(a_dictionary, key, value):
-    a_dictionary[key] = value  # Set the new key-value pair
+    a_dictionary[key] = value
     return a_dictionary
-
