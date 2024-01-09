@@ -1,6 +1,6 @@
 #!/bin/usr/python3
-
+""" function to read a file"""
 def read_file(filename=""):
-    with open("my_file_0.txt", encoding="UTF8") as new:
-        for char in new: 
-            print(char, end="")
+    """reads a text file (UTF8) and prints it to stdout"""
+    with open(filename, encoding="UTF8") as new:
+            print(new.read(), end="")
