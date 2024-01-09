@@ -1,4 +1,4 @@
-#!/bin/usr/python3
+#!/usr/bin/python3
 """ function to read a file"""
 
 def read_file(filename=""):
