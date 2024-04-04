@@ -3,4 +3,4 @@
 const num = process.argv[2];
 
 if (!num || isNaN(num)) console.log('Not a number');
-else console.log(parseInt(num));
+else console.log(`My number: ${parseInt(num)}`);
